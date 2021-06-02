@@ -13,3 +13,4 @@ loguru
 ruamel.yaml
 matplotlib
 seaborn
+hydra-core
