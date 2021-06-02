@@ -1,0 +1,32 @@
+# general
+seed: 43
+device: cuda
+num_workers: 0
+
+# FL setting
+n_clients: 100
+shards_per_client: 2
+n_noise: 30
+
+# train
+n_rounds: 1200
+batch_size: 100
+local_epoch: 5
+lr: 0.01
+adv: clean
+thresh: 0.02
+alpha: 5000.
+base_n_cls: 16
+iid: True
+reset: True
+sqrt: False
+
+# alpha scheduler
+alpha_scheduler: cos
+linear_epoch: 1200
+cos_cycle: 300
+
+
+# computing
+parallel: True
+threads: 8

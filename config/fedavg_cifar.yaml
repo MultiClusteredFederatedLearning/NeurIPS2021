@@ -1,0 +1,21 @@
+# general
+seed: 43
+device: cuda
+num_workers: 0
+
+# FL setting
+n_clients: 100
+shards_per_client: 2
+n_noise: 30
+
+# train
+n_rounds: 1200
+batch_size: 100
+local_epoch: 5
+lr: 0.01
+adv: clean
+iid: True
+
+# computing
+parallel: True
+threads: 8

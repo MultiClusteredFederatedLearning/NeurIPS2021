@@ -1,0 +1,15 @@
+numpy
+torch
+torchvision
+scikit-learn
+scipy
+ipython
+ipdb
+yapf
+tensorboardX
+omegaconf
+tqdm
+loguru
+ruamel.yaml
+matplotlib
+seaborn
